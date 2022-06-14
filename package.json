@@ -19,8 +19,8 @@
     "workbox-webpack-plugin": "^6.5.3"
   },
   "version": "1.0.0",
-  "description": "My webpack project",
-  "name": "my-webpack-project",
+  "description": "Three.jsのテストをしたいのです。",
+  "name": "mytestofthreejs",
   "scripts": {
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",
