@@ -31,6 +31,6 @@
     "build:prod": "webpack --mode=production --node-env=production",
     "watch": "webpack --watch",
     "serve": "webpack serve",
-    "test": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' mocha -r ts-node/register test/**/*.ts"
+    "test": "set TS_NODE_COMPILER_OPTIONS={\"module\": \"commonjs\"} & mocha -r ts-node/register test/**/*.ts"
   }
 }
