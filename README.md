@@ -1,2 +1,2 @@
-# three.js-no-test
-desukuripushonnhaopushonarudesu.
+# Three.jsのテストをしたい私はここにいるのです。
+いろいろお試しします。モカとか入れるところから始めるのですよ。わかりますか良いですか。
