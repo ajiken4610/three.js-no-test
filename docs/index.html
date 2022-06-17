@@ -1,0 +1,17 @@
+<!doctype html><html><head><meta charset="utf-8"/><title>Threeのテストしたい人</title><style>body {
+            margin: 0;
+        }</style><script defer="defer" src="main.js"></script></head><body><div id="loading" style="position: absolute; color: white">Loading...</div></body><script>if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+            navigator.serviceWorker
+                .register("service-worker.js")
+                .then((registration) => {
+                    console.log("Service Worker registered: ", registration);
+                })
+                .catch((registrationError) => {
+                    console.error(
+                        "Service Worker registration failed: ",
+                        registrationError
+                    );
+                });
+        });
+    }</script></html>
