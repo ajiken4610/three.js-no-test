@@ -17,8 +17,8 @@ const config = {
     path: path.resolve(__dirname, "dist"),
   },
   devServer: {
-    open: true,
-    host: "localhost",
+    host: "0.0.0.0",
+    port: 3000,
   },
   plugins: [
     new HtmlWebpackPlugin({
